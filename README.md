@@ -24,7 +24,7 @@ Within this file, they need to copy-paste their AWS credentials. They can find t
 3. Configure all Minecraft Server files
 
 # List of commands to run, with explanations.
-`./configure`
+`./configure_tf.sh`
 This command will set up all terraform-related files
 
 `terraform init`
@@ -35,7 +35,7 @@ These commands set up the EC2 instance using terraform
 This command will ssh the user into their EC2 instance. This is an example of the command with the IP address filled in:
 `ssh -i "../../../tf-key-pair" admin@ec2-3-226-247-127.compute-1.amazonaws.com`
 
-`./configure.sh`
+`./configure_mc.sh`
 This command will set up the minecraft server and service and all related files
 
 # How to connect to the Minecraft server once it's running?
